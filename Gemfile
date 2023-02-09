@@ -24,7 +24,10 @@ gem 'jbuilder', '2.7'
 # gem 'image_processing', '1.2'
 
 # Reduces boot times through caching; required in config/boot.rb
-gem 'bootsnap', '1.16.0'
+gem 'bootsnap', '1.16.0', require: false
+
+# Use Twitter Bootstrap library for front UI and layout 
+gem 'bootstrap-sass', '3.3.7'
 
 group :development, :test do
   # Use sqlite3 as the database for Active Record
